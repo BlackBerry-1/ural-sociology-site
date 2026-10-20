@@ -322,54 +322,6 @@ a:hover { text-decoration: underline; }
 .footer-links li { margin-bottom: 6px; }
 
 /* ============================================================
-   АДАПТИВНОСТЬ
-   ============================================================ */
-
-/* Планшет */
-@media (max-width: 900px) {
-  .cards-grid { grid-template-columns: repeat(2, 1fr); }
-  .news-grid  { grid-template-columns: repeat(2, 1fr); }
-  .footer-inner { grid-template-columns: 1fr 1fr; }
-}
-
-/* Телефон */
-@media (max-width: 640px) {
-  body { font-size: 16px; }
-
-  .nav-toggle { display: inline-block; }
-
-  .main-nav {
-    display: none;
-    width: 100%;
-  }
-  .main-nav.open { display: block; }
-  .main-nav ul {
-    flex-direction: column;
-    gap: 0;
-    padding-top: 12px;
-  }
-  .main-nav li { border-top: 1px solid rgba(255,255,255,0.15); }
-  .main-nav a {
-    display: block;
-    padding: 12px 4px;
-    border-bottom: none;
-  }
-  .main-nav a.active { font-weight: 700; }
-
-  .hero { padding: 50px 0; }
-  .hero h1 { font-size: 28px; }
-  .hero-sub { font-size: 16px; }
-
-  .section { padding: 50px 0; }
-  .section-title { font-size: 23px; }
-
-  .cards-grid, .news-grid { grid-template-columns: 1fr; }
-
-  .congress-banner { padding: 24px; }
-  .congress-banner h2 { font-size: 22px; }
-
-  .footer-inner { grid-template-columns: 1fr; gap: 28px; }
-}/* ============================================================
    ВНУТРЕННИЕ СТРАНИЦЫ
    ============================================================ */
 
@@ -479,12 +431,57 @@ a:hover { text-decoration: underline; }
 .contact-card h3 { margin-top: 0; font-size: 17px; }
 .contact-card p { margin: 0; color: var(--color-muted); }
 
-/* Адаптив для внутренних страниц */
+/* ============================================================
+   АДАПТИВНОСТЬ
+   ============================================================ */
+
+/* Планшет */
 @media (max-width: 900px) {
+  .cards-grid { grid-template-columns: repeat(2, 1fr); }
+  .news-grid  { grid-template-columns: repeat(2, 1fr); }
+  .footer-inner { grid-template-columns: 1fr 1fr; }
   .content-two-col { grid-template-columns: 1fr; gap: 28px; }
   .contact-block { grid-template-columns: 1fr; }
 }
+
+/* Телефон */
 @media (max-width: 640px) {
+  body { font-size: 16px; }
+
+  .nav-toggle { display: inline-block; }
+
+  .main-nav {
+    display: none;
+    width: 100%;
+  }
+  .main-nav.open { display: block; }
+  .main-nav ul {
+    flex-direction: column;
+    gap: 0;
+    padding-top: 12px;
+  }
+  .main-nav li { border-top: 1px solid rgba(255,255,255,0.15); }
+  .main-nav a {
+    display: block;
+    padding: 12px 4px;
+    border-bottom: none;
+  }
+  .main-nav a.active { font-weight: 700; }
+
+  .hero { padding: 50px 0; }
+  .hero h1 { font-size: 28px; }
+  .hero-sub { font-size: 16px; }
+
+  .section { padding: 50px 0; }
+  .section-title { font-size: 23px; }
+
+  .cards-grid, .news-grid { grid-template-columns: 1fr; }
+
+  .congress-banner { padding: 24px; }
+  .congress-banner h2 { font-size: 22px; }
+
+  .footer-inner { grid-template-columns: 1fr; gap: 28px; }
+
   .page-header { padding: 40px 0 32px; }
   .page-header h1 { font-size: 26px; }
   .page-header p { font-size: 15px; }
