@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Общественная жизнь — Уральское отделение РОС</title>
+  <meta name="description" content="Общественная жизнь Уральского отделения Российского общества социологов.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">РОС</span>
+        <span class="logo-text">
+          <strong>Уральское отделение</strong>
+          <small>Российского общества социологов</small>
+        </span>
+      </a>
+      <button class="nav-toggle" aria-label="Открыть меню" aria-expanded="false">☰</button>
+      <nav class="main-nav" aria-label="Главное меню">
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="about.html">Об отделении</a></li>
+          <li><a href="news.html">Новости</a></li>
+          <li><a href="science.html">Наука</a></li>
+          <li><a href="events.html">Мероприятия</a></li>
+          <li><a href="archive.html">Архив</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-header">
+    <div class="container">
+      <h1>Общественная жизнь отделения</h1>
+      <p>События и инициативы, не связанные напрямую с научной работой.</p>
+    </div>
+  </section>
+
+  <main class="content">
+    <div class="container content-two-col">
+
+      <div>
+        <div class="notice">
+          Демонстрационный раздел. Материалы будут добавлены позже.
+        </div>
+
+        <h2>Встречи и неформальное общение</h2>
+        <p>Отделение организует встречи, дискуссии и другие мероприятия для
+        поддержания профессионального сообщества.</p>
+
+        <h2>Поздравления и памятные события</h2>
+        <p>Здесь будут публиковаться поздравления членов отделения, памятные
+        даты и другие события общественной жизни.</p>
+      </div>
+
+      <aside class="sidebar">
+        <h3>Связанные разделы</h3>
+        <ul>
+          <li><a href="news.html">Новости</a></li>
+          <li><a href="events.html">Мероприятия</a></li>
+        </ul>
+        <h3>Контакты</h3>
+        <p>Эл. почта: <a href="mailto:info@example.ru">info@example.ru</a></p>
+      </aside>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <h4>Уральское отделение РОС</h4>
+        <p>Демонстрационная версия сайта. Информация будет уточнена.</p>
+      </div>
+      <div>
+        <h4>Разделы</h4>
+        <ul class="footer-links">
+          <li><a href="about.html">Об отделении</a></li>
+          <li><a href="news.html">Новости</a></li>
+          <li><a href="events.html">Мероприятия</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Связь</h4>
+        <p>Эл. почта: <a href="mailto:info@example.ru">info@example.ru</a></p>
+        <p>© 2025 Уральское отделение РОС</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.main-nav');
+    toggle.addEventListener('click', () => {
+      const open = nav.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Молодые исследователи — Уральское отделение РОС</title>
+  <meta name="description" content="Студенческие инициативы и поддержка молодых исследователей Уральского отделения РОС.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">РОС</span>
+        <span class="logo-text">
+          <strong>Уральское отделение</strong>
+          <small>Российского общества социологов</small>
+        </span>
+      </a>
+      <button class="nav-toggle" aria-label="Открыть меню" aria-expanded="false">☰</button>
+      <nav class="main-nav" aria-label="Главное меню">
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="about.html">Об отделении</a></li>
+          <li><a href="news.html">Новости</a></li>
+          <li><a href="science.html">Наука</a></li>
+          <li><a href="events.html">Мероприятия</a></li>
+          <li><a href="archive.html">Архив</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-header">
+    <div class="container">
+      <h1>Молодые исследователи</h1>
+      <p>Студенческие инициативы и поддержка начинающих социологов.</p>
+    </div>
+  </section>
+
+  <main class="content">
+    <div class="container content-two-col">
+
+      <div>
+        <div class="notice">
+          Демонстрационный раздел. Реальные инициативы и материалы будут добавлены позже.
+        </div>
+
+        <h2>Поддержка молодых исследователей</h2>
+        <p>Отделение поддерживает студентов, аспирантов и молодых учёных:
+        помогает с участием в конференциях, публикациями и научными проектами.</p>
+
+        <h2>Студенческие инициативы</h2>
+        <p>Здесь будут представлены студенческие научные общества, кружки и
+        проекты, действующие при отделении и в вузах региона.</p>
+
+        <h2>Как присоединиться</h2>
+        <p>Если вы студент или молодой исследователь и хотите участвовать в
+        работе отделения, напишите нам: <a href="contacts.html">контакты</a>.</p>
+      </div>
+
+      <aside class="sidebar">
+        <h3>Связанные разделы</h3>
+        <ul>
+          <li><a href="science.html">Научная деятельность</a></li>
+          <li><a href="events.html">Мероприятия</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+        <h3>Контакты</h3>
+        <p>Эл. почта: <a href="mailto:info@example.ru">info@example.ru</a></p>
+      </aside>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <h4>Уральское отделение РОС</h4>
+        <p>Демонстрационная версия сайта. Информация будет уточнена.</p>
+      </div>
+      <div>
+        <h4>Разделы</h4>
+        <ul class="footer-links">
+          <li><a href="about.html">Об отделении</a></li>
+          <li><a href="news.html">Новости</a></li>
+          <li><a href="events.html">Мероприятия</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Связь</h4>
+        <p>Эл. почта: <a href="mailto:info@example.ru">info@example.ru</a></p>
+        <p>© 2025 Уральское отделение РОС</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.main-nav');
+    toggle.addEventListener('click', () => {
+      const open = nav.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+  </script>
+
+</body>
+</html>

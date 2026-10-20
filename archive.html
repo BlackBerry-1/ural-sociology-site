@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Архив мероприятий — Уральское отделение РОС</title>
+  <meta name="description" content="Программы, отчёты, фотографии и материалы прошедших мероприятий Уральского отделения РОС.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">РОС</span>
+        <span class="logo-text">
+          <strong>Уральское отделение</strong>
+          <small>Российского общества социологов</small>
+        </span>
+      </a>
+      <button class="nav-toggle" aria-label="Открыть меню" aria-expanded="false">☰</button>
+      <nav class="main-nav" aria-label="Главное меню">
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="about.html">Об отделении</a></li>
+          <li><a href="news.html">Новости</a></li>
+          <li><a href="science.html">Наука</a></li>
+          <li><a href="events.html">Мероприятия</a></li>
+          <li><a href="archive.html" class="active">Архив</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-header">
+    <div class="container">
+      <h1>Архив мероприятий</h1>
+      <p>Программы, отчёты, фотографии и материалы прошедших событий.</p>
+    </div>
+  </section>
+
+  <main class="content">
+    <div class="container content-two-col">
+
+      <div>
+        <div class="notice">
+          Архив пока пуст. Здесь будут размещены материалы прошедших мероприятий
+          отделения. Поиск по архиву появится на следующем этапе.
+        </div>
+
+        <h2>Материалы по годам</h2>
+        <p>По мере наполнения архив будет организован по годам. В каждом разделе
+        планируется размещать программы, отчёты, фотографии и презентации.</p>
+
+        <h3>2025</h3>
+        <p>Материалы будут добавлены.</p>
+
+        <h3>2024</h3>
+        <p>Материалы будут добавлены.</p>
+
+        <h3>2023</h3>
+        <p>Материалы будут добавлены.</p>
+      </div>
+
+      <aside class="sidebar">
+        <h3>Связанные разделы</h3>
+        <ul>
+          <li><a href="events.html">Мероприятия</a></li>
+          <li><a href="congress2025.html">Конгресс-2025</a></li>
+          <li><a href="news.html">Новости</a></li>
+        </ul>
+        <h3>Контакты</h3>
+        <p>Эл. почта: <a href="mailto:info@example.ru">info@example.ru</a></p>
+      </aside>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <h4>Уральское отделение РОС</h4>
+        <p>Демонстрационная версия сайта. Информация будет уточнена.</p>
+      </div>
+      <div>
+        <h4>Разделы</h4>
+        <ul class="footer-links">
+          <li><a href="about.html">Об отделении</a></li>
+          <li><a href="news.html">Новости</a></li>
+          <li><a href="events.html">Мероприятия</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Связь</h4>
+        <p>Эл. почта: <a href="mailto:info@example.ru">info@example.ru</a></p>
+        <p>© 2025 Уральское отделение РОС</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.main-nav');
+    toggle.addEventListener('click', () => {
+      const open = nav.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+  </script>
+
+</body>
+</html>
